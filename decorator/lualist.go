@@ -3,8 +3,8 @@ package decorator
 import (
 	"encoding/json"
 
-	"github.com/velonetics/binder"
-	lua "github.com/velonetics/velonetics-lua/v2"
+	"github.com/pucora/binder"
+	lua "github.com/pucora/velonetics-lua/v2"
 )
 
 func RegisterLuaList(b *binder.Binder) {

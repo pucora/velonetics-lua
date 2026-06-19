@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/velonetics/binder"
-	lua "github.com/velonetics/velonetics-lua/v2"
-	"github.com/velonetics/lura/v2/transport/http/client"
+	"github.com/pucora/binder"
+	lua "github.com/pucora/velonetics-lua/v2"
+	"github.com/pucora/lura/v2/transport/http/client"
 )
 
 func RegisterLuaTable(b *binder.Binder) {

@@ -3,7 +3,7 @@ package decorator
 import (
 	"fmt"
 
-	"github.com/velonetics/binder"
+	"github.com/pucora/binder"
 )
 
 const separator = " || "

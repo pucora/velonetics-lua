@@ -10,14 +10,14 @@ import (
 	"net/url"
 
 	"github.com/gin-gonic/gin"
-	"github.com/velonetics/binder"
-	lua "github.com/velonetics/velonetics-lua/v2"
-	"github.com/velonetics/velonetics-lua/v2/decorator"
-	"github.com/velonetics/velonetics-lua/v2/router"
-	"github.com/velonetics/lura/v2/config"
-	"github.com/velonetics/lura/v2/logging"
-	"github.com/velonetics/lura/v2/proxy"
-	veloneticsgin "github.com/velonetics/lura/v2/router/gin"
+	"github.com/pucora/binder"
+	lua "github.com/pucora/velonetics-lua/v2"
+	"github.com/pucora/velonetics-lua/v2/decorator"
+	"github.com/pucora/velonetics-lua/v2/router"
+	"github.com/pucora/lura/v2/config"
+	"github.com/pucora/lura/v2/logging"
+	"github.com/pucora/lura/v2/proxy"
+	veloneticsgin "github.com/pucora/lura/v2/router/gin"
 	glua "github.com/yuin/gopher-lua"
 )
 

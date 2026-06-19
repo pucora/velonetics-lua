@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/velonetics/binder"
-	lua "github.com/velonetics/velonetics-lua/v2"
+	"github.com/pucora/binder"
+	lua "github.com/pucora/velonetics-lua/v2"
 
-	"github.com/velonetics/lura/v2/transport/http/server"
+	"github.com/pucora/lura/v2/transport/http/server"
 )
 
 func RegisterHTTPRequest(ctx context.Context, b *binder.Binder) {

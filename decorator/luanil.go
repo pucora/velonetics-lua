@@ -1,6 +1,6 @@
 package decorator
 
-import "github.com/velonetics/binder"
+import "github.com/pucora/binder"
 
 func RegisterNil(b *binder.Binder) {
 	tab := b.Table("luaNil")

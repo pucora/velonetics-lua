@@ -3,7 +3,7 @@ package lua
 import (
 	"strings"
 
-	"github.com/velonetics/binder"
+	"github.com/pucora/binder"
 )
 
 type Binder = binder.Binder

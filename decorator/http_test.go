@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/velonetics/binder"
+	"github.com/pucora/binder"
 )
 
 func ExampleRegisterHTTPRequest() {
@@ -46,7 +46,7 @@ func ExampleRegisterHTTPRequest() {
 	// output:
 	// lua http test
 	//
-	// {"123":["456"],"Accept-Encoding":["gzip"],"Content-Length":["13"],"Foo":["bar"],"Multi":["a","b"],"User-Agent":["Velonetics Version undefined"]}
+	// {"123":["456"],"Accept-Encoding":["gzip"],"Content-Length":["13"],"Foo":["bar"],"Multi":["a","b"],"User-Agent":["Pucora Version undefined"]}
 	// POST
 	// {"foo":"bar"}
 	// 200
@@ -55,7 +55,7 @@ func ExampleRegisterHTTPRequest() {
 	// B
 	// Hello, client
 	//
-	// {"Accept-Encoding":["gzip"],"Content-Length":["13"],"User-Agent":["Velonetics Version undefined"]}
+	// {"Accept-Encoding":["gzip"],"Content-Length":["13"],"User-Agent":["Pucora Version undefined"]}
 	// POST
 	// {"foo":"bar"}
 	// 200
@@ -64,7 +64,7 @@ func ExampleRegisterHTTPRequest() {
 	// B
 	// Hello, client
 	//
-	// {"Accept-Encoding":["gzip"],"User-Agent":["Velonetics Version undefined"]}
+	// {"Accept-Encoding":["gzip"],"User-Agent":["Pucora Version undefined"]}
 	// GET
 	//
 	// 200

@@ -3,7 +3,7 @@ package decorator
 import (
 	"errors"
 
-	"github.com/velonetics/binder"
+	"github.com/pucora/binder"
 )
 
 type Decorator func(*binder.Binder)

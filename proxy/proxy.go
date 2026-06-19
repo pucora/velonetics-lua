@@ -4,17 +4,17 @@ import (
 	"context"
 	"errors"
 
-	"github.com/velonetics/binder"
-	lua "github.com/velonetics/velonetics-lua/v2"
-	"github.com/velonetics/velonetics-lua/v2/decorator"
-	"github.com/velonetics/lura/v2/config"
-	"github.com/velonetics/lura/v2/logging"
-	"github.com/velonetics/lura/v2/proxy"
+	"github.com/pucora/binder"
+	lua "github.com/pucora/velonetics-lua/v2"
+	"github.com/pucora/velonetics-lua/v2/decorator"
+	"github.com/pucora/lura/v2/config"
+	"github.com/pucora/lura/v2/logging"
+	"github.com/pucora/lura/v2/proxy"
 )
 
 const (
-	ProxyNamespace   = "github.com/velonetics/velonetics-lua/proxy"
-	BackendNamespace = "github.com/velonetics/velonetics-lua/proxy/backend"
+	ProxyNamespace   = "github.com/pucora/velonetics-lua/proxy"
+	BackendNamespace = "github.com/pucora/velonetics-lua/proxy/backend"
 )
 
 func ProxyFactory(l logging.Logger, pf proxy.Factory) proxy.Factory {

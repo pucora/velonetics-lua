@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/velonetics/binder"
+	"github.com/pucora/binder"
 )
 
 type ErrWrongChecksumType string

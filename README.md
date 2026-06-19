@@ -1,3 +1,3 @@
 # velonetics-lua
 
-a lua interpreter for the Velonetics framework
+a lua interpreter for the Pucora framework

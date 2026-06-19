@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	lua "github.com/velonetics/velonetics-lua/v2"
-	"github.com/velonetics/lura/v2/config"
-	"github.com/velonetics/lura/v2/encoding"
-	"github.com/velonetics/lura/v2/logging"
-	"github.com/velonetics/lura/v2/proxy"
-	"github.com/velonetics/lura/v2/transport/http/client"
+	lua "github.com/pucora/velonetics-lua/v2"
+	"github.com/pucora/lura/v2/config"
+	"github.com/pucora/lura/v2/encoding"
+	"github.com/pucora/lura/v2/logging"
+	"github.com/pucora/lura/v2/proxy"
+	"github.com/pucora/lura/v2/transport/http/client"
 )
 
 func TestProxyFactory_luaError(t *testing.T) {
