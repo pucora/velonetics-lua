@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	lua "github.com/pucora/velonetics-lua/v2"
+	lua "github.com/pucora/pucora-lua/v2"
 	"github.com/pucora/lura/v2/config"
 	"github.com/pucora/lura/v2/encoding"
 	"github.com/pucora/lura/v2/logging"

@@ -10,9 +10,9 @@ import (
 	"net/url"
 
 	"github.com/pucora/binder"
-	lua "github.com/pucora/velonetics-lua/v2"
-	"github.com/pucora/velonetics-lua/v2/decorator"
-	"github.com/pucora/velonetics-lua/v2/router"
+	lua "github.com/pucora/pucora-lua/v2"
+	"github.com/pucora/pucora-lua/v2/decorator"
+	"github.com/pucora/pucora-lua/v2/router"
 	"github.com/pucora/lura/v2/config"
 	"github.com/pucora/lura/v2/logging"
 	"github.com/pucora/lura/v2/proxy"

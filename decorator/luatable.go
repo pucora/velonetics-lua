@@ -6,7 +6,7 @@ import (
 	"sort"
 
 	"github.com/pucora/binder"
-	lua "github.com/pucora/velonetics-lua/v2"
+	lua "github.com/pucora/pucora-lua/v2"
 	"github.com/pucora/lura/v2/transport/http/client"
 )
 

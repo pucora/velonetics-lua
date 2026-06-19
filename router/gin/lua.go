@@ -11,13 +11,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/pucora/binder"
-	lua "github.com/pucora/velonetics-lua/v2"
-	"github.com/pucora/velonetics-lua/v2/decorator"
-	"github.com/pucora/velonetics-lua/v2/router"
+	lua "github.com/pucora/pucora-lua/v2"
+	"github.com/pucora/pucora-lua/v2/decorator"
+	"github.com/pucora/pucora-lua/v2/router"
 	"github.com/pucora/lura/v2/config"
 	"github.com/pucora/lura/v2/logging"
 	"github.com/pucora/lura/v2/proxy"
-	veloneticsgin "github.com/pucora/lura/v2/router/gin"
+	pucoragin "github.com/pucora/lura/v2/router/gin"
 	glua "github.com/yuin/gopher-lua"
 )
 
@@ -44,7 +44,7 @@ func Register(l logging.Logger, extraConfig config.ExtraConfig, engine *gin.Engi
 	})
 }
 
-func HandlerFactory(l logging.Logger, next veloneticsgin.HandlerFactory) veloneticsgin.HandlerFactory {
+func HandlerFactory(l logging.Logger, next pucoragin.HandlerFactory) pucoragin.HandlerFactory {
 	return func(remote *config.EndpointConfig, p proxy.Proxy) gin.HandlerFunc {
 		logPrefix := "[ENDPOINT: " + remote.Endpoint + "][Lua]"
 		handlerFunc := next(remote, p)

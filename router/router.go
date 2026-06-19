@@ -1,3 +1,3 @@
 package router
 
-const Namespace = "github.com/pucora/velonetics-lua/router"
+const Namespace = "github.com/pucora/pucora-lua/router"
